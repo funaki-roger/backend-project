@@ -6,3 +6,5 @@
 - utilizando typescript
 - utilizando nodejs
 - utilizando ...
+
+🚧 *readme não finalizado em construção* 🚧
