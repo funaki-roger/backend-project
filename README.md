@@ -11,7 +11,7 @@ Este repositório contém a implementação de um sistema completo com backend e
   - Implementar a funcionalidade para adicionar novos clientes ao sistema.<br><br>
 - 4° tarefa: **Listar todos clientes cadastrados**  ![✔️](https://img.shields.io/badge/Status-✔️-green)
   - Criar uma rota para listar todos os clientes armazenados no banco de dados.<br><br>
-- 5° tarefa: **Deletar um cliente com base em um ID**
+- 5° tarefa: **Deletar um cliente com base em um ID**  ![✔️](https://img.shields.io/badge/Status-✔️-green)
   - Desenvolver a capacidade de remover um cliente usando seu ID.<br><br><br>
 
 ### Frontend: React JS + TypeScript -> Visual
