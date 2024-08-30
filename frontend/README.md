@@ -35,7 +35,7 @@ Este é o frontend da aplicação de gerenciamento de clientes, desenvolvido com
 1. Crie um arquivo `.env` na raiz do projeto e adicione as variáveis de ambiente necessárias. Exemplo:
 
     ```env
-    API_BASE_URL=http://localhost:3333/teste
+    API_BASE_URL=http://localhost:5173/
     ```
 
 2. Certifique-se de que a API está rodando e acessível.
