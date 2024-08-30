@@ -19,7 +19,7 @@ Este repositório contém a implementação de um sistema completo com backend e
   - Implementar o consumo da API REST criada no backend para interagir com os dados.<br><br>
 - 7° tarefa: **Listar todos os clientes cadastrados**   ![✔️](https://img.shields.io/badge/Status-✔️-green)
   - Exibir a lista de clientes no frontend, recuperando-os da API.<br><br>
-- 8° tarefa: **Cadastrar novo cliente com nome e e-mail**
+- 8° tarefa: **Cadastrar novo cliente com nome e e-mail**    ![✔️](https://img.shields.io/badge/Status-✔️-green)
   - Desenvolver uma interface para adicionar novos clientes com nome e e-mail.<br><br>
 - 9° tarefa: **Deletar um cliente**
   - Implementar a funcionalidade para remover um cliente através da interface.<br><br>
