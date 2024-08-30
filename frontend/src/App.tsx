@@ -38,6 +38,25 @@ export default function App (){
 
     setCustomers(allCustomers => [...allCustomers, response.data])
 
+    nameRef.current.value = ""
+    emailRef.current.value = ""
+
+  }
+
+  async function handleDelete(id: string){
+    try{
+      await api.delete("/customer", {
+        params: {
+          id: id,
+        }
+      })
+
+      const allCustomers = customers.filter( (customer) => customer.id !== id )
+      setCustomers(allCustomers)
+
+    }catch(err){
+      console.log(err)
+    }
   }
 
   return(
@@ -72,17 +91,18 @@ export default function App (){
 
         <section className="flex flex-col gap-4">
 
-          {customers.map( (customers) => (
+          {customers.map( (customer) => (
           <article
-          key={customers.id}
+          key={customer.id}
           className="w-full bg-white rounded p-2 relative hover:scale-105 duration-200"
           >
-            <p><span className="font-medium">Nome:</span> {customers.name}</p>
-            <p><span className="font-medium">Email:</span> {customers.email}</p>
-            <p><span className="font-medium">Stutus:</span> {customers.status ?"ATIVO" : "INATIVO"}</p>
+            <p><span className="font-medium">Nome:</span> {customer.name}</p>
+            <p><span className="font-medium">Email:</span> {customer.email}</p>
+            <p><span className="font-medium">Stutus:</span> {customer.status ?"ATIVO" : "INATIVO"}</p>
 
             <button
               className="bg-red-500 w-7 h-7 flex items-center justify-center rounded-lg absolute right-0 -top-2"
+              onClick={() => handleDelete(customer.id) }
             >
               <FiTrash size={18} color="#FFF" />
             </button>
