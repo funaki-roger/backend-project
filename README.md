@@ -15,9 +15,9 @@ Este repositório contém a implementação de um sistema completo com backend e
   - Desenvolver a capacidade de remover um cliente usando seu ID.<br><br><br>
 
 ### Frontend: React JS + TypeScript -> Visual
-- 6° tarefa: **Consumir API REST**
+- 6° tarefa: **Consumir API REST**   ![✔️](https://img.shields.io/badge/Status-✔️-green)
   - Implementar o consumo da API REST criada no backend para interagir com os dados.<br><br>
-- 7° tarefa: **Listar todos os clientes cadastrados**
+- 7° tarefa: **Listar todos os clientes cadastrados**   ![✔️](https://img.shields.io/badge/Status-✔️-green)
   - Exibir a lista de clientes no frontend, recuperando-os da API.<br><br>
 - 8° tarefa: **Cadastrar novo cliente com nome e e-mail**
   - Desenvolver uma interface para adicionar novos clientes com nome e e-mail.<br><br>
